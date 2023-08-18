@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jacques+Francois+Shadow&family=Lato&family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Quicksand:wght@400;500&display=swap');
+body{margin: 0 ;
+    padding: 0;
+    margin: 0 auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* barre de navigation */
+nav{background: black;
+   display: flex;
+   width: 100%;
+   position: fixed; 
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+}
+.onglets ul li{
+    display: inline;
+
+}
+
+nav p{ margin-left: 20px;
+    color: orange;
+    font-size: 30px;
+    font-family: 'Jacques Francois Shadow', cursive;
+
+   
+}
+
+.onglets ul li{
+    display: inline;
+    margin-left: 80px;
+    color: rgba(255, 255, 255, 0.76);
+
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .onglets a:hover{
+        color: rgba(255, 255, 255, 0.76);
+    }
+
+nav .recherche button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: orange;
+     padding:10px;
+     margin-left: 300px;
+     width: 120px;
+     border: none;
+     border-radius: 5px;
+     margin-right: 50px;
+ 
+ }
+
+ nav .recherche button:hover{
+    scale: 1.05;
+ }
+
+
+ .menu img{
+    display: none;
+    width: 35px;
+ }
+
+/* responsivité */
+
+@media screen and (max-width: 950px){
+
+   
+}
+/* début section films */
+
+ p{
+
+  
+}
+
+
+.action {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.action .ligne1{
+    width: 250px;
+    height: 250px;
+    background: brown;
+
+}
+
+.action .ligne2{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 147, 42);
+
+
+}
+
+
+.action .ligne3{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+
+}
+
+.action .ligne4{
+    width: 250px;
+    height: 250px;
+    background: rgb(42, 95, 165);
+
+}
+
+.action .ligne5{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+    
+
+}
+   /* films horeur */
+
+
+.amour {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.amour .ligne1{
+    width: 250px;
+    height: 250px;
+    background: brown;
+
+}
+
+.amour .ligne2{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 147, 42);
+
+
+}
+
+
+.amour .ligne3{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+
+}
+
+.amour .ligne4{
+    width: 250px;
+    height: 250px;
+    background: rgb(42, 95, 165);
+
+}
+
+.amour .ligne5{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+    
+
+}
+/* fin films horeur */
+
+
+/* films drame */
+
+
+.drame {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.drame .ligne1{
+    width: 250px;
+    height: 250px;
+    background: brown;
+
+}
+
+.drame .ligne2{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 147, 42);
+
+
+}
+
+
+.drame .ligne3{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+
+}
+
+.drame .ligne4{
+    width: 250px;
+    height: 250px;
+    background: rgb(42, 95, 165);
+
+}
+
+.drame .ligne5{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+    
+
+}
+/* fin films drame */
+
+/* debut films horeur */
+
+.horreur {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.horreur .ligne1{
+    width: 250px;
+    height: 250px;
+    background: brown;
+
+}
+
+.horreur .ligne2{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 147, 42);
+
+
+}
+
+
+.horreur .ligne3{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+
+}
+
+.horreur .ligne4{
+    width: 250px;
+    height: 250px;
+    background: rgb(42, 95, 165);
+
+}
+
+.horreur .ligne5{
+    width: 250px;
+    height: 250px;
+    background: rgb(165, 42, 42);
+    
+
+}
+/* fin films horreur */
+    
+
+
+
+/* fin de la  barre de navigation */
