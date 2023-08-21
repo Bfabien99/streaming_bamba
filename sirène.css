@@ -5,7 +5,9 @@ body{margin: 0;
   
 }
 .image {
-   margin: 100px 300px;
+    border: 1px solid;
+     
+   
 }
  img:hover{
     scale: 1.05;

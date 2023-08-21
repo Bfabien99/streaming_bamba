@@ -18,36 +18,32 @@ nav{background: black;
    justify-content: space-between;
    align-items: center;
    height: 80px;
+   z-index: 1;
 }
 .onglets ul li{
     display: inline;
-
 }
 
 nav p{ margin-left: 20px;
     color: orange;
     font-size: 30px;
     font-family: 'Jacques Francois Shadow', cursive;
-
-   
 }
 
 .onglets ul li{
     display: inline;
     margin-left: 80px;
     color: rgba(255, 255, 255, 0.76);
+}
 
-    }
+a{
+    text-decoration: none;
+    color: white;
+}
 
-
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    
-    .onglets a:hover{
-        color: rgba(255, 255, 255, 0.76);
-    }
+.onglets a:hover{
+    color: rgba(255, 255, 255, 0.76);
+}
 
 nav .recherche button {
     display: flex;
@@ -60,7 +56,6 @@ nav .recherche button {
      border: none;
      border-radius: 5px;
      margin-right: 50px;
- 
  }
 
  nav .recherche button:hover{
@@ -84,207 +79,54 @@ nav .recherche button {
 
   /* séries jeunesses */
 
-.séries-jeunesses{}
-
-p{
-
-  
+.bare-recherche{
+    position: relative;
+    border: 1px solid red;
+    top: 6rem;
+    text-align: center;
+    
+}
+.bare-recherche input{
+    width: 25rem;
+    height: 2rem;
+    padding: 3px 5px;
+    
 }
 
+.séries{
+    position: relative;
+    border: 1px solid red;
+    display: grid;
+    top: 6rem;
+    grid-gap: 1rem;
+    grid-template-columns: 100%;
+}
 
-.jeunesse {
-    margin-top: 50px;
+.galerie-série{
+    background: black;
+}
+.categories{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1700px;
+    margin: 20px  auto;
+    border: 1px solid  green;
 }
 
-.jeunesse .ligne1{
-    width: 250px;
-    height: 250px;
-    background: brown;
-
+.ligne{
+    width: 400px;
+    margin: 4px;
+    /* height: 250px; */
+    background-color: blue;
+    overflow: hidden;
+    flex-shrink: 0;
+   
 }
 
-.jeunesse .ligne2{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 147, 42);
-
-
-}
-
-
-.jeunesse .ligne3{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
-
-}
-
-.jeunesse .ligne4{
-    width: 250px;
-    height: 250px;
-    background: rgb(42, 95, 165);
-
-}
-
-.jeunesse .ligne5{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
+.ligne img{
+    width: 100%;
+    height: 300px;
     
 }
-
-
-   /* séries d'amour */
-
-
-.amour {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.amour .ligne1{
-    width: 250px;
-    height: 250px;
-    background: brown;
-
-}
-
-.amour .ligne2{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 147, 42);
-
-
-}
-
-
-.amour .ligne3{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
-
-}
-
-.amour .ligne4{
-    width: 250px;
-    height: 250px;
-    background: rgb(42, 95, 165);
-
-}
-
-.amour .ligne5{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
-    
-
-}
-/* fin séries d'amour */
-
-
-/* séries historique */
-
-
-.historique {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.historique .ligne1{
-    width: 250px;
-    height: 250px;
-    background: brown;
-
-}
-
-.historique .ligne2{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 147, 42);
-
-
-}
-
-
-.historique .ligne3{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
-
-}
-
-.historique .ligne4{
-    width: 250px;
-    height: 250px;
-    background: rgb(42, 95, 165);
-
-}
-
-.historique .ligne5{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
-    
-
-}
-/* fin séries-historique */
-
-/* debut séries fontastique */
-
-.fontastique {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.fontastique .ligne1{
-    width: 250px;
-    height: 250px;
-    background: brown;
-
-}
-
-.fontastique .ligne2{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 147, 42);
-
-
-}
-
-
-.fontastique .ligne3{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
-
-}
-
-.fontastique .ligne4{
-    width: 250px;
-    height: 250px;
-    background: rgb(42, 95, 165);
-
-}
-
-.fontastique .ligne5{
-    width: 250px;
-    height: 250px;
-    background: rgb(165, 42, 42);
-    
-
-}
-/* fin films horeur */
-    
