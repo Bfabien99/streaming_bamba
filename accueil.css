@@ -27,7 +27,7 @@ nav{background: black;
  
  nav p{ margin-left: 20px;
      color: orange;
-     font-size: 30px;
+     font-size: 35px;
      font-family: 'Jacques Francois Shadow', cursive;
  }
 
@@ -39,10 +39,11 @@ nav{background: black;
      display: inline;
      margin-left: 80px;
      color: rgba(255, 255, 255, 0.76);
+     font-size: 28px;
      }
  
-     a{
-         text-decoration: none;
+      a{
+         text-decoration:none;
          color: white;
      }
      
@@ -67,14 +68,15 @@ nav{background: black;
     display: flex;
     justify-content: center;
     align-items: center;
-     background: orange;
+     background: white;
      padding:10px;
-    
      width: 120px;
      border: none;
      border-radius: 5px;
      margin-right: 50px;
- 
+ }
+ .inscription a{
+    color: black;
  }
  nav .inscription button:hover{
     scale: 1.05;
@@ -120,38 +122,36 @@ nav{background: black;
     color: white;
 }
 
+.annonces h1{
+    color: aqua;
+}
 .annonces{
-  margin-top:-400px ;
+   position: relative;
+  background: black;
+  margin-top:-300px;
+  display: grid;
+  grid-template-columns: 100%;
+  
+  
+
 }
 .nouveauté{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    border: 1px solid green;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 10px;
     
 }
 
- .nouveauté .nouv1{
+ .nouveauté .nouv{
     width: 300px;
-    height: 350px;
-   background: red;
+    height: 400px;
+   background: violet;
+   flex-shrink: 0;
 }
 
-.nouveauté .nouv2{
-    width: 300px;
-    height: 350px;
-   background: red;
-   margin-left: 10px;
-}
-
-.nouveauté .nouv3{
-    width: 300px;
-    height: 350px;
-   background: red;
-   margin-left: 10px;
-}
-
-.nouveauté .nouv4{
-    width: 300px;
-    height: 350px;
-   background: red;
-   margin-left: 10px;
-}

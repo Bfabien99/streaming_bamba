@@ -5,10 +5,27 @@ body{margin: 0;
   
 }
 .image {
-    border: 1px solid;
-     
-   
+    
+    
 }
+
+.vidéo{
+    
+   justify-content: center;
+    align-items: center;
+    
+    margin-top: 0 auto;
+    
+}
+  .vid{
+   border: 1px solid red;
+    width: 00px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+
  img:hover{
     scale: 1.05;
 }
