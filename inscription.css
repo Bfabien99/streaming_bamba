@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Quicksand:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+
+}
+.frome{
+    width: 400px;
+    height: 550px;
+    margin:  0 auto;
+    margin-top: 50px;
+    border: 1px solid #c07503 ;
+    background: white;
+    
+   
+
+}
+.élements{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif; 
+    color: #c07503;
+
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    outline: none;
+}
+
+.inscription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    width: 250px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background: #c07503;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+
+button:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}

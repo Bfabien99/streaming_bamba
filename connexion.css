@@ -19,7 +19,8 @@ p{
   border: 1px solid #c07503;
   width: 400px;
   height: 350px;
-  margin-top: 100px;
+  margin-top: 150px;
+  box-shadow: 2px 2px 2px 2px;
 
 }
 .élements{
@@ -36,6 +37,7 @@ input{
 .inscrire{
     display: flex;
     justify-content: flex-end;
+    
 }
 .conexion{
     display: flex;
@@ -44,15 +46,24 @@ input{
 
 }
 button{
-    width: 150px;
+    width: 250px;
     padding: 8px;
     background: #c07503;
     border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px ; 
+}
+
+button:hover{
+    scale: 1.05;
+    transition: 0.3s;
 }
 button a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.65);
 }
+button a:hover{color: white;}
 
 .inscrire a{
     text-decoration: none;

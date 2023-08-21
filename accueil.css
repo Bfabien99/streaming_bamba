@@ -2,18 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Quicksand:wght@400;500&display=swap');
 body{margin: 0 ;
     padding: 0;
-   
-    
-
 }
+
 *{
     padding: 0;
     margin: 0;
 }
-
-
-   
-    
 
 /* barre de navigation */
 
@@ -24,27 +18,28 @@ nav{background: black;
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    z-index: 1;
  }
+
  .onglets ul li{
-     display: inline;
- 
+  display: inline;
  }
  
  nav p{ margin-left: 20px;
      color: orange;
      font-size: 30px;
      font-family: 'Jacques Francois Shadow', cursive;
- 
-    
+ }
+
+ .gauche{
+    display: flex;
  }
  
  .onglets ul li{
      display: inline;
-     margin-left: 50px;
+     margin-left: 80px;
      color: rgba(255, 255, 255, 0.76);
- 
      }
- 
  
      a{
          text-decoration: none;
@@ -61,28 +56,46 @@ nav{background: black;
      align-items: center;
       background: orange;
       padding:10px;
-      margin-left: 300px;
+      margin-left:00px ;
       width: 120px;
       border: none;
       border-radius: 5px;
       margin-right: 50px;
   
   }
+  nav .inscription button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: orange;
+     padding:10px;
+    
+     width: 120px;
+     border: none;
+     border-radius: 5px;
+     margin-right: 50px;
+ 
+ }
+ nav .inscription button:hover{
+    scale: 1.05;
+ }
+
  
   nav .recherche button:hover{
      scale: 1.05;
   }
  
- 
-  .menu img{
-     display: none;
-     width: 35px;
+  .contenus img{
+
+     
   }
  
  /* responsivité */
  
- @media screen and (max-width: 950px){
- 
+ @media screen and (max-width: 500px){
+
+    
+
     
  }
      
@@ -92,135 +105,53 @@ nav{background: black;
  /* fin de la  barre de navigation */
 
 
-/* nav{
-    display: flex;
-    position: fixed;
-    width: 1350px;
-    justify-content: center;
-    justify-content: space-between;
-    background: black;
-    flex-wrap: wrap;
-    height: 80px;
-   
-    
-    
-}
-nav .gauche{
-   display: flex;
-   flex-wrap: wrap;
-}
-
-nav .gauche .onglets{
-    display: flex;
-    margin-left: 100px;
-    margin-top: 10px;
-}
-
-.onglets ul li{
-    display: inline;
-    margin-left: 50px;
-    color: rgba(255, 255, 255, 0.76);
-   
-}
-
- .gauche p{
-    color: orange;
-    margin-top: 20px;
-    font-size: 30px;
-    font-family: 'Jacques Francois Shadow', cursive;
-
-   
-}
-  a{
-    text-decoration: none;
-    color: white;
-}
-
-.onglets a:hover{
-    color: rgba(255, 255, 255, 0.76);
-}
-
-nav .recherche button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    background: orange;
-    padding:10px;
-    margin-right: 50px;
-    width: 120px;
-    margin-top: 20px;
-    border: none;
 
 
-} */
 /* fin de la  barre de navigation */
 
 /* début du corps de la page */
 
-
-
- 
-
+.text{position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.text p{
+    font-size: 35px;
+    color: white;
+}
 
 .annonces{
-display: flex;
-align-items: center;
-align-items: center;
-margin-top: 1300px;
-margin-left: 0px;
-
+  margin-top:-400px ;
 }
-
-.annonces .sirène{
- width: 322px;
- height: 402px;
- background: url(image/R.jfif);
- background-size: cover;
- background-position: center;
- 
-}
-
-.annonces .uncated{
-
-    width: 322px;
- height: 402px;
- background: url(image/UNCHARTED-affiche-450x600.jpg);
- background-size: cover;
- background-position: center;
- margin-left: 10px;
-
-}
-.annonces .miral{
-
-    width: 322px;
- height: 402px;
- background: url(image/miraculous.jfif);
- background-size: cover;
- background-position: center;
- margin-left: 10px;
-}
-.annonces .aqaman{
-    width: 322px;
-    height: 402px;
-    background: url(image/aqaman.jfif);
-    background-size: cover;
- background-position: center;
-    margin-left: 10px;
+.nouveauté{
+    display: flex;
+    justify-content: center;
     
 }
 
-.contenus{
-
+ .nouveauté .nouv1{
+    width: 300px;
+    height: 350px;
+   background: red;
 }
 
+.nouveauté .nouv2{
+    width: 300px;
+    height: 350px;
+   background: red;
+   margin-left: 10px;
+}
 
+.nouveauté .nouv3{
+    width: 300px;
+    height: 350px;
+   background: red;
+   margin-left: 10px;
+}
 
-/* fin du corps de la page */
-
-
-/* début pied de page */
- 
-
-/* début pied de page */
-
-
+.nouveauté .nouv4{
+    width: 300px;
+    height: 350px;
+   background: red;
+   margin-left: 10px;
+}
